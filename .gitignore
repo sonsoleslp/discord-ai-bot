@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# VS Code settings
+.vscode/
+
+# MacOS and Linux system files
+.DS_Store
+
+# PyCharm settings
+.idea/
+
+# Log files
+*.log
+
+# OS-generated files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# JSON config and token storage
+channel_configs.json
+
+# Python egg metadata
+*.egg-info/
+
+# Test cache
+.pytest_cache/
+.cache/
+
+# LRS output/debug
+lrs_debug.json
