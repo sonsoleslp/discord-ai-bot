@@ -1,5 +1,3 @@
-
-
 # <img src="logo.png" style="width:40px; margin-right:10px"> Discord LLM Bot 
 
 
@@ -201,3 +199,8 @@ For issues and questions:
 - Review Discord bot permissions
 - Verify API key validity
 - Check console logs for detailed error messages
+
+## Author
+
+Developed by [Sonsoles López-Pernas](https://github.com/sonsoleslp)  
+For questions, feel free to reach out or open an issue.
