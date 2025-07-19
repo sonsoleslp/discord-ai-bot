@@ -1,6 +1,17 @@
+<img src="logo.png" style="width:40px;float:left;margin-right:10px">
+
 # Discord LLM Bot
 
-A Discord bot that integrates multiple LLM backends (OpenAI, Anthropic, Mistral) with xAPI Learning Record Store (LRS) logging for educational analytics.
+
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)
+[![License](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+
+
+A **Discord** bot that integrates multiple **LLM** backends (OpenAI, Anthropic, Mistral) with **xAPI** Learning Record Store (LRS) logging for educational analytics.
 
 ## Features
 
