@@ -30,8 +30,8 @@ A Discord bot that integrates multiple LLM backends (OpenAI, Anthropic, Mistral)
 
 ### 1. Clone and Setup
 ```bash
-git clone <your-repo>
-cd discord-llm-bot
+git clone https://github.com/sonsoleslp/discord-ai-bot
+cd discord-ai-bot
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -43,14 +43,14 @@ Rename the `example.env` file to  `.env` in the project root and configure your 
 
 ### 3. Run the Bot
 ```bash
-python bot.py
+python ai-bot.py
 ```
 
 ## Docker Installation
 
 ### 1. Build the Docker Image
 ```bash
-docker build -t discord-llm-bot .
+docker build -t discord-ai-bot .
 ```
 
 ### 2. Run the bot
@@ -65,7 +65,7 @@ docker run -d \
   --restart unless-stopped \
   --env-file .env \
   -v $(pwd)/data:/app/data \
-  discord-llm-bot
+  discord-ai-bot
 ```
 
 ### 3. Docker Management Commands
