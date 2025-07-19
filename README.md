@@ -1,6 +1,6 @@
-<img src="logo.png" style="width:40px;float:left;margin-right:10px">
 
-# Discord LLM Bot
+
+# Discord LLM Bot <img src="logo.png" style="width:40px;float:left;margin-right:10px">
 
 
 
