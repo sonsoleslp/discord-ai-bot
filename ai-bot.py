@@ -394,8 +394,8 @@ channel_configs = load_configs()
 @app_commands.describe(
     backend="LLM backend to use: openai, anthropic, mistral, huggingface",
     model="Model name, e.g., gpt-4, claude-3-sonnet, mistralai/Mistral-7B-Instruct-v0.1",
-    system_prompt="System prompt to guide the assistant",
-    mode="ask (manual prompt) or auto (auto-respond to questions)"
+    mode="ask (manual prompt) or auto (auto-respond to questions)",
+    system_prompt="System prompt to guide the assistant"
 )
 @app_commands.checks.has_permissions(administrator=True)
 async def setup(interaction: discord.Interaction, backend: str, model: str, system_prompt: str, mode: str = "ask"):

@@ -9,7 +9,7 @@
 
 
 
-A **Discord** bot that integrates multiple **LLM** backends (OpenAI, Anthropic, Mistral) with **xAPI** Learning Record Store (LRS) logging for educational analytics.
+A **Discord** bot that integrates multiple **LLM** backends (OpenAI, Anthropic, Mistral) with **xAPI** Learning Record Store (LRS) logging for learning analytics and data storage.
 
 ## Features
 
